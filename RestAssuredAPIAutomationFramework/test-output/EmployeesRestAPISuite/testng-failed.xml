@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EmployeesRestAPISuite]">
+  <listeners>
+    <listener class-name="com.employeeAPI.reports.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="EmployeesRestAPITests(failed)">
+    <classes>
+      <class name="com.employeeAPI.testCases.CreateEmployee">
+        <methods>
+          <include name="createEmployees"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateResponseBody"/>
+          <include name="validateStatusCode"/>
+        </methods>
+      </class> <!-- com.employeeAPI.testCases.CreateEmployee -->
+      <class name="com.employeeAPI.testCases.ModifyEmployee">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateStatusCode"/>
+          <include name="setUp"/>
+          <include name="validateResponseBody"/>
+          <include name="modifyEmployees"/>
+        </methods>
+      </class> <!-- com.employeeAPI.testCases.ModifyEmployee -->
+      <class name="com.employeeAPI.testCases.GetAllEmployees">
+        <methods>
+          <include name="validateStatusCode"/>
+          <include name="setUp"/>
+          <include name="getAllEmployees"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.employeeAPI.testCases.GetAllEmployees -->
+      <class name="com.employeeAPI.testCases.DeleteEmployee">
+        <methods>
+          <include name="deleteEmployee"/>
+          <include name="validateStatusCode"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateResponseBody"/>
+          <include name="validateResponseTime"/>
+        </methods>
+      </class> <!-- com.employeeAPI.testCases.DeleteEmployee -->
+    </classes>
+  </test> <!-- EmployeesRestAPITests(failed) -->
+</suite> <!-- Failed suite [EmployeesRestAPISuite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EmployeesRestAPISuite">
+<listeners>
+<listener class-name = "com.employeeAPI.reports.TestListener" />
+</listeners>
+	<test thread-count="5" name="EmployeesRestAPITests">
+		<classes>
+
+			<class name="com.employeeAPI.testCases.GetAllEmployees" />
+			<class name="com.employeeAPI.testCases.GetSingleEmployee" />
+			<class name="com.employeeAPI.testCases.CreateEmployee" />
+			<class name="com.employeeAPI.testCases.ModifyEmployee" />
+			<class name="com.employeeAPI.testCases.DeleteEmployee" />
+
+		</classes>
+	</test>
+</suite>

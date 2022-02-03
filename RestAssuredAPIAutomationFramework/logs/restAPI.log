@@ -1,0 +1,1181 @@
+2022-02-02 01:53:11 INFO  TestBase:18 - ********Started Get All Employees Test Case**********
+  2022-02-02 01:53:17 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 01:53:17 INFO  TestBase:30 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-02 01:53:17 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 01:53:17 INFO  TestBase:48 - Response Time: 2169
+  2022-02-02 01:53:17 WARN  TestBase:51 - Response Time is greater than 2000
+  2022-02-02 01:53:17 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 01:53:17 INFO  TestBase:39 - Status Code: 429
+  2022-02-02 01:53:17 INFO  TestBase:58 - *******Completed all the test validations*********
+  2022-02-02 01:53:58 INFO  TestBase:18 - ********Started Get All Employees Test Case**********
+  2022-02-02 01:54:04 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 01:54:04 INFO  TestBase:30 - Response body: {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+  2022-02-02 01:54:04 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 01:54:04 INFO  TestBase:48 - Response Time: 1791
+  2022-02-02 01:54:04 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 01:54:04 INFO  TestBase:39 - Status Code: 200
+  2022-02-02 01:54:04 INFO  TestBase:58 - *******Completed all the test validations*********
+  2022-02-02 22:41:01 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-02 22:41:07 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 22:41:07 INFO  TestBase:30 - Response body: {"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+  2022-02-02 22:41:07 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 22:41:07 INFO  TestBase:48 - Response Time: 1906
+  2022-02-02 22:41:07 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 22:41:07 INFO  TestBase:39 - Status Code: 404
+  2022-02-02 22:41:07 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-02 22:42:59 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-02 22:43:08 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 22:43:08 INFO  TestBase:30 - Response body: {"message":"Error Occured! Page Not found, contact rstapi2example@gmail.com"}
+  2022-02-02 22:43:08 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 22:43:08 INFO  TestBase:48 - Response Time: 3916
+  2022-02-02 22:43:08 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 22:43:08 INFO  TestBase:39 - Status Code: 404
+  2022-02-02 22:43:08 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-02 22:43:39 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-02 22:43:45 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 22:43:45 INFO  TestBase:30 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-02 22:43:45 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 22:43:45 INFO  TestBase:48 - Response Time: 1642
+  2022-02-02 22:43:45 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 22:43:45 INFO  TestBase:39 - Status Code: 429
+  2022-02-02 22:43:45 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-02 22:44:32 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-02 22:44:38 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 22:44:38 INFO  TestBase:30 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-02 22:44:38 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 22:44:38 INFO  TestBase:48 - Response Time: 1836
+  2022-02-02 22:44:38 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 22:44:38 INFO  TestBase:39 - Status Code: 429
+  2022-02-02 22:44:38 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-02 22:44:42 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-02 22:44:48 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 22:44:48 INFO  TestBase:30 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-02 22:44:48 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 22:44:48 INFO  TestBase:48 - Response Time: 1768
+  2022-02-02 22:44:48 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 22:44:48 INFO  TestBase:39 - Status Code: 429
+  2022-02-02 22:44:48 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-02 22:44:51 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-02 22:44:57 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 22:44:57 INFO  TestBase:30 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-02 22:44:57 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 22:44:57 INFO  TestBase:48 - Response Time: 1732
+  2022-02-02 22:44:57 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 22:44:57 INFO  TestBase:39 - Status Code: 429
+  2022-02-02 22:44:57 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-02 22:45:02 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-02 22:45:08 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 22:45:08 INFO  TestBase:30 - Response body: {"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}
+  2022-02-02 22:45:08 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 22:45:08 INFO  TestBase:48 - Response Time: 1636
+  2022-02-02 22:45:08 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 22:45:08 INFO  TestBase:39 - Status Code: 200
+  2022-02-02 22:45:08 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-02 23:10:07 INFO  TestBase:25 - ********Started Create Employees Test Case**********
+  2022-02-02 23:10:16 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-02 23:10:16 INFO  TestBase:46 - Response body: {"status":"success","data":{"name":"Johnv","salary":"53858","age":"25","id":2871},"message":"Successfully! Record has been added."}
+  2022-02-02 23:10:16 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-02 23:10:16 INFO  TestBase:66 - Response Time: 1881
+  2022-02-02 23:10:16 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-02 23:10:16 INFO  TestBase:57 - Status Code: 200
+  2022-02-02 23:10:16 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-02 23:11:20 INFO  TestBase:25 - ********Started Create Employees Test Case**********
+  2022-02-02 23:11:25 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-02 23:11:25 INFO  TestBase:46 - Response body: {"status":"success","data":{"name":"Johnc","salary":"83868","age":"86","id":7625},"message":"Successfully! Record has been added."}
+  2022-02-02 23:11:25 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-02 23:11:25 INFO  TestBase:66 - Response Time: 1872
+  2022-02-02 23:11:25 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-02 23:11:25 INFO  TestBase:57 - Status Code: 200
+  2022-02-02 23:11:25 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-02 23:16:11 INFO  TestBase:25 - ********Started Modify Employees Test Case**********
+  2022-02-02 23:16:17 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-02 23:16:17 INFO  TestBase:46 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-02 23:16:17 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-02 23:16:17 INFO  TestBase:66 - Response Time: 1826
+  2022-02-02 23:16:17 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-02 23:16:17 INFO  TestBase:57 - Status Code: 429
+  2022-02-02 23:16:17 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-02 23:16:25 INFO  TestBase:25 - ********Started Modify Employees Test Case**********
+  2022-02-02 23:16:32 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-02 23:16:32 INFO  TestBase:46 - Response body: {"status":"success","data":{"name":"Johnr","salary":"16650","age":"93"},"message":"Successfully! Record has been updated."}
+  2022-02-02 23:16:32 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-02 23:16:32 INFO  TestBase:66 - Response Time: 1859
+  2022-02-02 23:16:32 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-02 23:16:32 INFO  TestBase:57 - Status Code: 200
+  2022-02-02 23:16:32 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-02 23:24:48 INFO  TestBase:19 - ********Started Delete Employee Test Case**********
+  2022-02-02 23:25:21 INFO  TestBase:19 - ********Started Delete Employee Test Case**********
+  2022-02-02 23:27:31 INFO  TestBase:19 - ********Started Delete Employee Test Case**********
+  2022-02-02 23:27:39 INFO  TestBase:31 - *******Checking Response Body*********
+  2022-02-02 23:27:39 INFO  TestBase:34 - Response body: {"status":"success","data":"null","message":"Successfully! Record has been deleted"}
+  2022-02-02 23:27:39 INFO  TestBase:49 - *******Checking Response Time*********
+  2022-02-02 23:27:39 INFO  TestBase:52 - Response Time: 1047
+  2022-02-02 23:27:39 INFO  TestBase:40 - *******Checking Status Code*********
+  2022-02-02 23:27:39 INFO  TestBase:43 - Status Code: 200
+  2022-02-02 23:27:39 INFO  TestBase:58 - *******Completed all the test validations*********
+  2022-02-02 23:39:07 INFO  TestBase:18 - ********Started Get All Employees Test Case**********
+  2022-02-02 23:39:13 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 23:39:13 INFO  TestBase:30 - Response body: {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+  2022-02-02 23:39:13 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 23:39:13 INFO  TestBase:48 - Response Time: 1946
+  2022-02-02 23:39:13 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 23:39:13 INFO  TestBase:39 - Status Code: 200
+  2022-02-02 23:39:13 INFO  TestBase:58 - *******Completed all the test validations*********
+  2022-02-02 23:39:13 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-02 23:39:18 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-02 23:39:18 INFO  TestBase:30 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-02 23:39:18 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-02 23:39:18 INFO  TestBase:48 - Response Time: 1336
+  2022-02-02 23:39:18 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-02 23:39:18 INFO  TestBase:39 - Status Code: 429
+  2022-02-02 23:39:18 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-02 23:39:18 INFO  TestBase:25 - ********Started Create Employees Test Case**********
+  2022-02-02 23:39:20 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-02 23:39:20 INFO  TestBase:46 - Response body: {"status":"success","data":{"name":"Johnf","salary":"05066","age":"02","id":7647},"message":"Successfully! Record has been added."}
+  2022-02-02 23:39:20 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-02 23:39:20 INFO  TestBase:66 - Response Time: 1381
+  2022-02-02 23:39:20 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-02 23:39:20 INFO  TestBase:57 - Status Code: 200
+  2022-02-02 23:39:20 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-02 23:39:20 INFO  TestBase:25 - ********Started Modify Employees Test Case**********
+  2022-02-02 23:39:25 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-02 23:39:25 INFO  TestBase:46 - Response body: {"status":"success","data":{"name":"Johnf","salary":"34641","age":"83"},"message":"Successfully! Record has been updated."}
+  2022-02-02 23:39:25 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-02 23:39:25 INFO  TestBase:66 - Response Time: 1546
+  2022-02-02 23:39:25 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-02 23:39:25 INFO  TestBase:57 - Status Code: 200
+  2022-02-02 23:39:25 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-02 23:39:25 INFO  TestBase:19 - ********Started Delete Employee Test Case**********
+  2022-02-03 01:18:07 INFO  TestBase:18 - ********Started Get All Employees Test Case**********
+  2022-02-03 01:18:13 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-03 01:18:13 INFO  TestBase:30 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-03 01:18:13 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-03 01:18:13 INFO  TestBase:48 - Response Time: 1976
+  2022-02-03 01:18:13 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-03 01:18:13 INFO  TestBase:39 - Status Code: 429
+  2022-02-03 01:18:13 INFO  TestBase:58 - *******Completed all the test validations*********
+  2022-02-03 01:18:13 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-03 01:18:17 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-03 01:18:17 INFO  TestBase:30 - Response body: {"status":"success","data":{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},"message":"Successfully! Record has been fetched."}
+  2022-02-03 01:18:17 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-03 01:18:17 INFO  TestBase:48 - Response Time: 1233
+  2022-02-03 01:18:17 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-03 01:18:17 INFO  TestBase:39 - Status Code: 200
+  2022-02-03 01:18:17 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-03 01:18:17 INFO  TestBase:25 - ********Started Create Employees Test Case**********
+  2022-02-03 01:18:20 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-03 01:18:20 INFO  TestBase:46 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-03 01:18:20 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-03 01:18:20 INFO  TestBase:66 - Response Time: 1068
+  2022-02-03 01:18:20 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-03 01:18:20 INFO  TestBase:57 - Status Code: 429
+  2022-02-03 01:18:20 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-03 01:18:20 INFO  TestBase:25 - ********Started Modify Employees Test Case**********
+  2022-02-03 01:18:24 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-03 01:18:24 INFO  TestBase:46 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-03 01:18:24 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-03 01:18:24 INFO  TestBase:66 - Response Time: 1031
+  2022-02-03 01:18:24 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-03 01:18:24 INFO  TestBase:57 - Status Code: 429
+  2022-02-03 01:18:24 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-03 01:18:24 INFO  TestBase:19 - ********Started Delete Employee Test Case**********
+  2022-02-03 01:28:40 INFO  TestBase:18 - ********Started Get All Employees Test Case**********
+  2022-02-03 01:28:47 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-03 01:28:47 INFO  TestBase:30 - Response body: {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+  2022-02-03 01:28:47 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-03 01:28:47 INFO  TestBase:48 - Response Time: 1878
+  2022-02-03 01:28:47 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-03 01:28:47 INFO  TestBase:39 - Status Code: 200
+  2022-02-03 01:28:47 INFO  TestBase:58 - *******Completed all the test validations*********
+  2022-02-03 01:28:47 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-03 01:28:51 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-03 01:28:51 INFO  TestBase:30 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-03 01:28:51 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-03 01:28:51 INFO  TestBase:48 - Response Time: 1061
+  2022-02-03 01:28:51 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-03 01:28:51 INFO  TestBase:39 - Status Code: 429
+  2022-02-03 01:28:51 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-03 01:28:51 INFO  TestBase:25 - ********Started Create Employees Test Case**********
+  2022-02-03 01:28:53 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-03 01:28:53 INFO  TestBase:46 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-03 01:28:53 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-03 01:28:53 INFO  TestBase:66 - Response Time: 1057
+  2022-02-03 01:28:53 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-03 01:28:53 INFO  TestBase:57 - Status Code: 429
+  2022-02-03 01:28:53 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-03 01:28:53 INFO  TestBase:25 - ********Started Modify Employees Test Case**********
+  2022-02-03 01:28:57 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-03 01:28:57 INFO  TestBase:46 - Response body: {"status":"success","data":{"name":"JohnK","salary":"21505","age":"42"},"message":"Successfully! Record has been updated."}
+  2022-02-03 01:28:57 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-03 01:28:57 INFO  TestBase:66 - Response Time: 1052
+  2022-02-03 01:28:57 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-03 01:28:57 INFO  TestBase:57 - Status Code: 200
+  2022-02-03 01:28:57 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-03 01:28:57 INFO  TestBase:19 - ********Started Delete Employee Test Case**********
+  2022-02-03 01:33:53 INFO  TestBase:18 - ********Started Get All Employees Test Case**********
+  2022-02-03 01:34:00 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-03 01:34:00 INFO  TestBase:30 - Response body: {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+  2022-02-03 01:34:00 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-03 01:34:00 INFO  TestBase:48 - Response Time: 1845
+  2022-02-03 01:34:00 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-03 01:34:00 INFO  TestBase:39 - Status Code: 200
+  2022-02-03 01:34:00 INFO  TestBase:58 - *******Completed all the test validations*********
+  2022-02-03 01:34:00 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-03 01:34:04 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-03 01:34:04 INFO  TestBase:30 - Response body: {"status":"success","data":{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},"message":"Successfully! Record has been fetched."}
+  2022-02-03 01:34:04 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-03 01:34:04 INFO  TestBase:48 - Response Time: 1181
+  2022-02-03 01:34:04 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-03 01:34:04 INFO  TestBase:39 - Status Code: 200
+  2022-02-03 01:34:04 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-03 01:34:04 INFO  TestBase:25 - ********Started Create Employees Test Case**********
+  2022-02-03 01:34:06 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-03 01:34:06 INFO  TestBase:46 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-03 01:34:06 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-03 01:34:06 INFO  TestBase:66 - Response Time: 1072
+  2022-02-03 01:34:06 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-03 01:34:06 INFO  TestBase:57 - Status Code: 429
+  2022-02-03 01:34:06 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-03 01:34:06 INFO  TestBase:25 - ********Started Modify Employees Test Case**********
+  2022-02-03 01:34:10 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-03 01:34:10 INFO  TestBase:46 - Response body: {"status":"success","data":{"name":"Johnc","salary":"77405","age":"44"},"message":"Successfully! Record has been updated."}
+  2022-02-03 01:34:10 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-03 01:34:10 INFO  TestBase:66 - Response Time: 992
+  2022-02-03 01:34:10 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-03 01:34:10 INFO  TestBase:57 - Status Code: 200
+  2022-02-03 01:34:10 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-03 01:34:10 INFO  TestBase:19 - ********Started Delete Employee Test Case**********
+  2022-02-03 01:37:20 INFO  TestBase:18 - ********Started Get All Employees Test Case**********
+  2022-02-03 01:37:26 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-03 01:37:26 INFO  TestBase:30 - Response body: {"status":"success","data":[{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},{"id":3,"employee_name":"Ashton Cox","employee_salary":86000,"employee_age":66,"profile_image":""},{"id":4,"employee_name":"Cedric Kelly","employee_salary":433060,"employee_age":22,"profile_image":""},{"id":5,"employee_name":"Airi Satou","employee_salary":162700,"employee_age":33,"profile_image":""},{"id":6,"employee_name":"Brielle Williamson","employee_salary":372000,"employee_age":61,"profile_image":""},{"id":7,"employee_name":"Herrod Chandler","employee_salary":137500,"employee_age":59,"profile_image":""},{"id":8,"employee_name":"Rhona Davidson","employee_salary":327900,"employee_age":55,"profile_image":""},{"id":9,"employee_name":"Colleen Hurst","employee_salary":205500,"employee_age":39,"profile_image":""},{"id":10,"employee_name":"Sonya Frost","employee_salary":103600,"employee_age":23,"profile_image":""},{"id":11,"employee_name":"Jena Gaines","employee_salary":90560,"employee_age":30,"profile_image":""},{"id":12,"employee_name":"Quinn Flynn","employee_salary":342000,"employee_age":22,"profile_image":""},{"id":13,"employee_name":"Charde Marshall","employee_salary":470600,"employee_age":36,"profile_image":""},{"id":14,"employee_name":"Haley Kennedy","employee_salary":313500,"employee_age":43,"profile_image":""},{"id":15,"employee_name":"Tatyana Fitzpatrick","employee_salary":385750,"employee_age":19,"profile_image":""},{"id":16,"employee_name":"Michael Silva","employee_salary":198500,"employee_age":66,"profile_image":""},{"id":17,"employee_name":"Paul Byrd","employee_salary":725000,"employee_age":64,"profile_image":""},{"id":18,"employee_name":"Gloria Little","employee_salary":237500,"employee_age":59,"profile_image":""},{"id":19,"employee_name":"Bradley Greer","employee_salary":132000,"employee_age":41,"profile_image":""},{"id":20,"employee_name":"Dai Rios","employee_salary":217500,"employee_age":35,"profile_image":""},{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},{"id":22,"employee_name":"Yuri Berry","employee_salary":675000,"employee_age":40,"profile_image":""},{"id":23,"employee_name":"Caesar Vance","employee_salary":106450,"employee_age":21,"profile_image":""},{"id":24,"employee_name":"Doris Wilder","employee_salary":85600,"employee_age":23,"profile_image":""}],"message":"Successfully! All records has been fetched."}
+  2022-02-03 01:37:26 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-03 01:37:26 INFO  TestBase:48 - Response Time: 1759
+  2022-02-03 01:37:26 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-03 01:37:26 INFO  TestBase:39 - Status Code: 200
+  2022-02-03 01:37:26 INFO  TestBase:58 - *******Completed all the test validations*********
+  2022-02-03 01:37:26 INFO  TestBase:18 - ********Started Get Single Employee Test Case**********
+  2022-02-03 01:37:30 INFO  TestBase:27 - *******Checking Response Body*********
+  2022-02-03 01:37:30 INFO  TestBase:30 - Response body: {"status":"success","data":{"id":21,"employee_name":"Jenette Caldwell","employee_salary":345000,"employee_age":30,"profile_image":""},"message":"Successfully! Record has been fetched."}
+  2022-02-03 01:37:30 INFO  TestBase:45 - *******Checking Response Time*********
+  2022-02-03 01:37:30 INFO  TestBase:48 - Response Time: 1161
+  2022-02-03 01:37:30 INFO  TestBase:36 - *******Checking Status Code*********
+  2022-02-03 01:37:30 INFO  TestBase:39 - Status Code: 200
+  2022-02-03 01:37:30 INFO  TestBase:54 - *******Completed all the test validations*********
+  2022-02-03 01:37:30 INFO  TestBase:25 - ********Started Create Employees Test Case**********
+  2022-02-03 01:37:33 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-03 01:37:33 INFO  TestBase:46 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-03 01:37:33 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-03 01:37:33 INFO  TestBase:66 - Response Time: 1162
+  2022-02-03 01:37:33 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-03 01:37:33 INFO  TestBase:57 - Status Code: 429
+  2022-02-03 01:37:33 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-03 01:37:33 INFO  TestBase:25 - ********Started Modify Employees Test Case**********
+  2022-02-03 01:37:37 INFO  TestBase:43 - *******Checking Response Body*********
+  2022-02-03 01:37:37 INFO  TestBase:46 - Response body: <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    </body>
+</html>
+
+  2022-02-03 01:37:37 INFO  TestBase:63 - *******Checking Response Time*********
+  2022-02-03 01:37:37 INFO  TestBase:66 - Response Time: 1101
+  2022-02-03 01:37:37 INFO  TestBase:54 - *******Checking Status Code*********
+  2022-02-03 01:37:37 INFO  TestBase:57 - Status Code: 429
+  2022-02-03 01:37:37 INFO  TestBase:72 - *******Completed all the test validations*********
+  2022-02-03 01:37:37 INFO  TestBase:19 - ********Started Delete Employee Test Case**********
+  
